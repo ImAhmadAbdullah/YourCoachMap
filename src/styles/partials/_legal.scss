@@ -1,0 +1,58 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+
+.legal-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  line-height: 1.75;
+
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #1a202c;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: #1a202c;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    color: #4a5568;
+  }
+
+  ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    list-style: disc;
+    color: #4a5568;
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  a {
+    color: $gradient-start;
+    text-decoration: underline;
+  }
+
+  @include respond(mobile) {
+    padding: 2rem 1rem;
+
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+}

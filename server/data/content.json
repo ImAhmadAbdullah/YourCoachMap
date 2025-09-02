@@ -1,0 +1,67 @@
+{
+	"about": {
+		"title": "About YourCoachMap",
+		"content": "YourCoachMap bridges the gap between ambitious students and exceptional coaching centers. We connect students with verified coaching centers and qualified teachers in their area through detailed profiles, authentic reviews, and comprehensive information. Our mission is to democratize access to quality education by simplifying the search for the right learning support. Built by educators and technologists, we understand the challenges of both students and coaching centers. YourCoachMap is your trusted partner in the journey toward academic excellence.",
+		"contact": {
+			"phone": "+880 123 456 789",
+			"email": "contact@yourcoachmap.com",
+			"social": {
+				"instagram": "#",
+				"facebook": "#",
+				"twitter": "#"
+			}
+		}
+	},
+	"careers": {
+		"title": "Careers",
+		"content": "Content for the Careers page goes here."
+	},
+	"findCoaching": {
+		"title": "Find Coaching Centers",
+		"content": "Content for the Find Coaching Centers page goes here.",
+		"filters": {
+			"locations": ["Dhanmondi", "Uttara", "Gulshan", "Mohammadpur"],
+			"subjects": [
+				"Add Maths",
+				"General Maths",
+				"Chemistry",
+				"Physics",
+				"English",
+				"Computer Science",
+				"Mathematics - Syllabus D",
+				"Biology",
+				"English Language",
+				"Economics"
+			],
+			"grades": [
+				{ "value": "O Levels" },
+				{ "value": "IGCSE" },
+				{ "value": "AS Level" },
+				{ "value": "A2 Level" },
+				{ "value": "Grades 7 & 8" }
+			]
+		}
+	},
+	"privacyPolicy": {
+		"title": "Privacy Policy",
+		"content": "Content for the Privacy Policy page goes here."
+	},
+	"terms": {
+		"title": "Terms of Service & Cookie Policy",
+		"content": "Content for the Terms of Service & Cookie Policy page goes here."
+	},
+	"faq": [
+		{
+			"question": "What is YourCoachMap?",
+			"answer": "YourCoachMap connects students with the best coaching centers in Dhaka for various exam preparations."
+		},
+		{
+			"question": "How can I find coaching centers?",
+			"answer": "Use the Find Coaching page to filter by subject, location, and grade to discover coaching centers that fit your needs."
+		},
+		{
+			"question": "Can coaching centers list their services?",
+			"answer": "Yes, coaching centers can sign up to list their services and reach students through YourCoachMap."
+		}
+	]
+}
